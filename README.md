@@ -1,5 +1,5 @@
 # DevOps with Docker
-Course work submitted for Helsinki University course DevOps with Docker
+Course work submitted for Helsinki University course [DevOps with Docker](https://devopswithdocker.com/).
 
 ## Contents
 
