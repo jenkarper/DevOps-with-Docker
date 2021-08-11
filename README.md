@@ -3,6 +3,6 @@ Course work submitted for Helsinki University course DevOps with Docker
 
 ## Contents
 
-- [Part 1]
-- [Part 2]
-- [Part 3]
+- [Part 1](part1)
+- [Part 2](part2)
+- [Part 3](part3)
