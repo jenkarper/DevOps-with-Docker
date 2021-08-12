@@ -59,3 +59,16 @@
     docker run -p 3000:8080 web-server
 
 1.11 Spring: [Dockerfile](1.11_Spring/Dockerfile) and [browser message](screenshots/1.11_Spring_browser.png)
+
+1.12 Hello, frontend!: [Dockerfile](1.12_Hello_frontend!/Dockerfile) and [command](screenshots/1.12_Hello_frontend_command.png):
+
+    docker run -p 5000:5000 frontend
+    
+1.13 Hello, backend!: [Dockerfile](1.13_Hello_backend!/Dockerfile) and [command](screenshots/1.13_Hello_backend_command.png):
+
+    docker run -p 8080:8080 backend
+    
+1.14 Environment: [frontend Dockerfile](1.14_Environment/frontend/Dockerfile), [backend Dockerfile](1.14_Environment/backend/Dockerfile) and [commands](screenshots/1.14_Environment.png):
+
+    docker run -p 5000:5000 frontend
+    docker run -p 8080:8080 backend
