@@ -72,3 +72,7 @@
 
     docker run -p 5000:5000 frontend
     docker run -p 8080:8080 backend
+
+1.15: Homework: [project in Docker Hub](https://hub.docker.com/r/jenkarper/homework-app)
+
+1.16: Heroku: [released application](https://hero-kuest.herokuapp.com/)
