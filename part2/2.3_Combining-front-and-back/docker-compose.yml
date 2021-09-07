@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+
+    app-back:
+      image: backend
+      container_name: app-back
+      ports:
+        - 8080:8080
+
+    app-front:
+      image: frontend
+      container_name: app-front
+      ports:
+        - 5000:5000

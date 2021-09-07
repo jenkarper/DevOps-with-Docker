@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+
+    web-service-with-command:
+      image: devopsdockeruh/simple-web-service:latest
+      ports:
+        - 8080:8080
+      command: server
+      container_name: web-service-with-command
