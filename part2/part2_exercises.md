@@ -22,7 +22,7 @@
 
 2.10 Fixing buttons for frontend + backend project:
 
-* I removed the environment variables `REQUEST_ORIGIN` and `REACT_APP_BACKEND_URL` in the backend and frontend Dockerfiles.
+* I removed the environment variables `REQUEST_ORIGIN` and `REACT_APP_BACKEND_URL` in the [backend](2.10_Fixing-buttons/Dockerfile_back) and [frontend](2.10_Fixing-buttons/Dockerfile_front) Dockerfiles.
 * I added the build key for both [front](2.10_Fixing-buttons/docker-compose.yml#L26) and [back](2.10_Fixing-buttons/docker-compose.yml#L14) containers in docker-compose.yml.
 * The [nginx configuration file](2.10_Fixing-buttons/nginx.conf) didn't change, but I uploaded it just in case.
 
