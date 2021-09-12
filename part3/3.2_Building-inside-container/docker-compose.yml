@@ -1,0 +1,11 @@
+version: "3.5"
+
+services:
+  build-tool:
+    build: .
+    container_name: build-tool
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+      - /usr/bin/docker:/usr/bin/docker
+    env_file:
+      - variables.env
