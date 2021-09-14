@@ -12,3 +12,8 @@ I used the image for the course pages (thank you!). [Here](https://github.com/je
 - [file](3.2_Building-inside-container/variables.env) containing variables
 
 I tested the app with the [rails-example-project](https://github.com/docker-hy/material-applications/tree/main/rails-example-project) and the [spring-example-project](https://github.com/docker-hy/material-applications/tree/main/spring-example-project) from the course material (after I had cloned them into their own repositories), as well as with my own [docker-homework](https://github.com/jenkarper/docker-homework) from part 1 and one random public repository.
+
+3.3 Containers with non-root user
+
+- [Frontend Dockerfile](https://github.com/jenkarper/DevOps-with-Docker/blob/main/part3/3.3_Non-root%20user/Dockerfile.front)
+- [Backend Dockerfile](https://github.com/jenkarper/DevOps-with-Docker/blob/main/part3/3.3_Non-root%20user/Dockerfile.back)
