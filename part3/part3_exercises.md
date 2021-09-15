@@ -15,5 +15,17 @@ I tested the app with the [rails-example-project](https://github.com/docker-hy/m
 
 3.3 Containers with non-root user
 
-- [Frontend Dockerfile](https://github.com/jenkarper/DevOps-with-Docker/blob/main/part3/3.3_Non-root%20user/Dockerfile.front)
-- [Backend Dockerfile](https://github.com/jenkarper/DevOps-with-Docker/blob/main/part3/3.3_Non-root%20user/Dockerfile.back)
+- [Frontend Dockerfile](3.3_Non-root-user/Dockerfile.front)
+- [Backend Dockerfile](3.3_Non-root-user/Dockerfile.back)
+
+3.4 Reducing image size by chaining RUN commands
+
+- [Difference in image sizes](3.4_Optimizing-Dockerfiles/3.4_images-sizes-before-and-after.png)
+  - I have used the official images for golang and node instead of ubuntu, which increases the image size. After chaining the RUN commands in both Dockerfiles I reached a 0.19GB save for the frontend image and a 0.02GB save for the backend image.
+- Dockerfiles: [front](3.4_Optimizing-Dockerfiles/Dockerfile.front) and [back](3.4_Optimizing-Dockerfiles/Dockerfile.back)
+
+3.5 Changing the base image
+
+- [Difference in image sizes](3.5_Changing-base-images/3.5_Images-with-alpine.png)
+  - Instead of changing from ubuntu to golang/node (which I have been using all along), I added the tag alpine to both Dockerfiles and made the required changes in the content. This reduced image size significantly to 447MB for backend and 406MB for frontend.
+- Dockerfiles: [front](3.5_Changing-base-images/Dockerfile.front) and [back](3.5_Changing-base-images/Dockerfile.back)
